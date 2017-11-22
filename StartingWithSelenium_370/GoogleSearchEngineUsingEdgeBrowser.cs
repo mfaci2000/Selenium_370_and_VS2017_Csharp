@@ -8,13 +8,14 @@ using OpenQA.Selenium.Support.UI;
 namespace Selenium3_7_VisualStudio2017
 {
     [TestClass]
-    public class GoogleSearchEngineUsingIE
+    public class GoogleSearchEngineUsingEdgeBrowser
     {
+        string edgeBrowserDriverLocation = @"C:\SeleniumIeDriver\SeleniumEdgeDriver";
         [TestMethod]
         public void Shoud_Search_Using_EdgeBrowser()
         {
             // Initialize the IE Driver
-            using (var driver = new EdgeDriver(@"C:\SeleniumIeDriver"))
+            using (var driver = new EdgeDriver(edgeBrowserDriverLocation))//@"C:\SeleniumIeDriver"))
             {
                 // 1. Maximize the browser
                 driver.Manage().Window.Maximize();
