@@ -58,7 +58,6 @@
     <Compile Include="GoogleSearchEngineUsingChrome.cs" />
     <Compile Include="GoogleSearchEngineUsingFirefox.cs" />
     <Compile Include="GoogleSearchEngineUsingIE.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
