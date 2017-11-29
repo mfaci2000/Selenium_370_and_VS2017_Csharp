@@ -10,12 +10,12 @@ namespace Selenium3_7_VisualStudio2017
     [TestClass]
     public class GoogleSearchEngineUsingEdgeBrowser
     {
-        string edgeBrowserDriverLocation = @"C:\SeleniumIeDriver\SeleniumEdgeDriver";
+        string edgeDriverLocation = @"C:\SeleniumEdgeDriver";
         [TestMethod]
         public void Shoud_Search_Using_EdgeBrowser()
         {
             // Initialize the IE Driver
-            using (var driver = new EdgeDriver(edgeBrowserDriverLocation))//@"C:\SeleniumIeDriver"))
+            using (var driver = new EdgeDriver(edgeDriverLocation))
             {
                 // 1. Maximize the browser
                 driver.Manage().Window.Maximize();
