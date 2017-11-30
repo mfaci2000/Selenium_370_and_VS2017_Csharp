@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium.Chrome;
 
 namespace Selenium3_7_VisualStudio2017
@@ -33,7 +32,6 @@ namespace Selenium3_7_VisualStudio2017
 
                 // 7. Find the "Id" of the "Div" containing results stats, just before the results table.
                 var searchResults = driver.FindElementById("resultStats");
-
             }
         }
     }
