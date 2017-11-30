@@ -7,7 +7,9 @@ namespace Selenium3_7_VisualStudio2017
     [TestClass]
     public class GoogleSearchEngineUsingEdgeBrowser
     {
+        // EdgeDriver full path: @"C:\SeleniumEdgeDriver\MicrosoftWebDriver.exe”
         string edgeDriverLocation = @"C:\SeleniumEdgeDriver";
+
         [TestMethod]
         public void Shoud_Search_Using_EdgeBrowser()
         {
